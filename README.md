@@ -26,4 +26,14 @@ A lightweight web-based application that uses facial recognition to automate att
 ---
 
 ## 📁 Folder Structure
-
+smart_attendance_system/
+├── app.py # Flask application
+├── face_recognition.py # Facial recognition logic
+├── attendance.csv # CSV log of attendance
+├── database.db # SQLite DB for persistence
+├── requirements.txt
+├── static/
+│ └── style.css # Dashboard styling
+├── templates/
+│ └── index.html # Flask dashboard
+└── dataset/ # Folder containing student face images
